@@ -1,0 +1,84 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.container img {
+    height: 210px;
+}
+
+.container {
+    margin: 80px auto 0;
+    width: 900px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.container .form {
+    width: 500px;
+    margin-left: 60px;
+}
+
+.container form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.container input {
+    margin: 12px 0 24px;
+    min-height: 46px;
+    line-height: 20px;
+    padding: 0 15px;
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 44px;
+    line-height: 48px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.container form label {
+    font-weight: 500;
+}
+
+.container form li {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.container form li::marker {
+    color: #007c89;
+}
+
+.container form ul {
+    display: flex;
+    flex-flow: column wrap;
+    height: 80px;
+    padding-left: 12px;
+}
+
+.container form fieldset {
+    border-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.container form input[type="submit"] {
+    width: 145px;
+    height: 48px;
+    margin-right: 42px;
+}
+
+.container form input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-right: 15px;
+}
+
+td {
+    vertical-align: bottom;
+}
